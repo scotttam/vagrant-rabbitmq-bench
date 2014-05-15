@@ -19,7 +19,7 @@ vagrant up ubuntu1 ubuntu2 ubuntu3
 
 CentOS VMs start on 192.168.56.201 and .202
 
-Ubuntu on .211, .212 and .213.
+Ubuntu on 192.168.56.211, .212 and .213.
 
 Admin interface exists on :15672 with guest/guest.
 

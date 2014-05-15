@@ -9,6 +9,7 @@ apt-get update
 apt-get install -y erlang-nox
 sudo dpkg -i rabbitmq-server_3.2.4-1_all.deb
 sudo apt-get install -y vim
+sudo apt-get install -y iptables
 
 sudo /etc/init.d/rabbitmq-server stop
 
