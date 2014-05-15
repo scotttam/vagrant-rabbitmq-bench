@@ -33,4 +33,12 @@ Vagrant.configure("2") do |config|
     config.vm.network :private_network, ip: "192.168.56.212"
     config.vm.hostname = "rabbit2"
   end
+
+  config.vm.define "ubuntu3" do |config|
+    config.vm.box = "precise64"
+    config.vm.box_url = "http://files.vagrantup.com/precise64.box"
+    config.vm.provision "shell", path: "ubuntu.sh"
+    config.vm.network :private_network, ip: "192.168.56.213"
+    config.vm.hostname = "rabbit3"
+  end
 end
